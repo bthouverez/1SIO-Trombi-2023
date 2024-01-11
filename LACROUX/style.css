@@ -43,3 +43,13 @@ img.small-photo {
     max-width: 150px; 
     height: auto;
     }
+    
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #000; /* Ajoutez cette règle pour la bordure */
+}
