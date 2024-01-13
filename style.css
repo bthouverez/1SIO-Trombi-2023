@@ -1,0 +1,46 @@
+@keyframes rotation{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+:root {
+    --clr1: #1f0c5e;
+    --clr2: #4a0571;
+    --clr3: #8a0571;
+    --clr4: #b50e51;
+    --clr5: #1f0c5e;
+  }
+  
+  #ROUX {
+    position: relative;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    border: 0px; /* aussi pour faire joli tak*/
+    overflow: hidden; /*c'est le plus important en soit comme ca ca deborde pas tout degeu*/   
+    padding: 20px;
+  }
+  
+  #ROUX::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(var(--clr2), var(--clr3),var(--clr1),var(--clr4),var(--clr5));
+    border-radius: 5px;
+    z-index: -1; /*pour continuer a voir le nom prénom*/
+    animation: rotation 10s linear infinite;
+  }
+  
+  #ROUX img {
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*garde la bonne taille de ma tete*/
+    border-radius: 5s;
+
+  }
+
+/* le fait de separer ROUX img et ROUX before permet de placer l'image au dessus du fond pour ne pas quelle ce noit dedant*/
