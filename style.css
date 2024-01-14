@@ -1,3 +1,4 @@
+
 @keyframes rotation{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -44,3 +45,27 @@
   }
 
 /* le fait de separer ROUX img et ROUX before permet de placer l'image au dessus du fond pour ne pas quelle ce noit dedant*/
+
+
+#LACROUX {
+    border: 10px solid #ff00ff; 
+    background-color: #fce4ec;
+}
+#LACROUX p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+#GREFFET {
+    border: 2px solid #AA15FF; 
+	background-color : blue;
+}
+
+#AITMELLOUK {
+	border: 2px solid #ff00ff; /* Rose fuchsia */
+}
+
