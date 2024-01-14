@@ -1,4 +1,12 @@
 
+#BOUQUET{
+	background-color: #D78F76;
+}
+#BOUQUET{
+	 border-radius: 20px; 
+    border: 6px solid #76D783; 
+    padding: 4x;
+}
 @keyframes rotation{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
