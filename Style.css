@@ -9,10 +9,10 @@
     margin: 5px; 
     animation: moveRotateUpDown 2s infinite alternate ease-in-out; 
 }
+/* o */
 
 #GUILLOT:hover {
     transform: rotateY(360deg); 
     animation: none; 
 }
-
 
