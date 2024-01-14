@@ -1,0 +1,25 @@
+#GUILLOT {
+    border-radius: 10%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: rotateY(0deg); 
+    transition: transform 0.5s ease; 
+    background-color: #3498db; 
+    padding: 20px; 
+    margin: 5px; 
+    animation: moveRotateUpDown 2s infinite alternate ease-in-out; 
+}
+
+#GUILLOT:hover {
+    transform: rotateY(360deg); 
+    animation: none; 
+}
+
+@keyframes moveRotateUpDown {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    100% {
+        transform: translateY(20px) rotate(180deg); 
+    }
+}
