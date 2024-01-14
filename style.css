@@ -77,3 +77,11 @@
 	border: 2px solid #ff00ff; /* Rose fuchsia */
 }
 
+#POLY {
+	background-color : #081B7A;
+	color: #fff;
+}
+
+#POLY img {
+	border-radius: 5px;
+} 
