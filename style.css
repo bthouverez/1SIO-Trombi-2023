@@ -1,3 +1,24 @@
+#GHARBI {
+    border-width: 8px;
+}
+
+@keyframes blink {
+    0% { background-color: #ff0000; border-color: #00ff00; }
+    25% { background-color: #00ff00; border-color: #0000ff; }
+    50% { background-color: #0000ff; border-color: #ff00ff; }
+    75% { background-color: #ff00ff; border-color: #ffff00; }
+    100% { background-color: #ffff00; border-color: #ff0000; }
+}
+
+#GHARBI {
+    animation: blink 2s infinite;
+}
+
+#GHARBI img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 #LAFFI {
     background-color: #095228;
