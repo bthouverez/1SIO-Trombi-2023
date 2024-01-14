@@ -1,7 +1,23 @@
 #GHARBI {
     border-width: 8px;
 }
+#GUILLOT {
+    border-radius: 10%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: rotateY(0deg); 
+    transition: transform 0.5s ease; 
+    background-color: #3498db; 
+    padding: 20px; 
+    margin: 5px; 
+    animation: moveRotateUpDown 2s infinite alternate ease-in-out; 
+}
+/* o */
 
+#GUILLOT:hover {
+    transform: rotateY(360deg); 
+    animation: none; 
+}
 @keyframes blink {
     0% { background-color: #ff0000; border-color: #00ff00; }
     25% { background-color: #00ff00; border-color: #0000ff; }
